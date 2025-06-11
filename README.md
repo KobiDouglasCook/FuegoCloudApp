@@ -18,9 +18,14 @@ The infrastructure provisions and configures the following AWS resources:
 
 .
 ├── main.tf # Main Terraform configuration
+
 ├── variables.tf # Input variables for customization
+
 ├── terraform.tfvars # Variable values (not committed if sensitive)
+
 ├── outputs.tf # Outputs after provisioning
+
 ├── backend.tf # Remote backend config (S3 + DynamoDB)
+
 └── modules/ # (optional) Any reusable infrastructure modules
 
